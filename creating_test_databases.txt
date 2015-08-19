@@ -1,0 +1,8 @@
+1.  Create a test database (TestADO or something like that)  (I haven't included this because it would probably be different for everyone)
+2.  Create a user named test_login with access to the database
+3.  Run the table and stored procedure create script
+4.  Run the insert statements to populate the table
+5.  Grant select on Person and execute on the 2 stored procedures to test_login.
+6.  If you're going to test NT Authentication, make sure you have the rights in #5 with your windows login
+
+You'll obviously need to adjust the test scripts to use your server name (or instance or filename) and also the name of the database you created.
