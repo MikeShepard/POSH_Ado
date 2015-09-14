@@ -8,13 +8,13 @@
 ### 5.0.8.1 for the command timeout to work.
 ### </Description>
 ### <Usage>
-### import-module mysqllib
+### import-module POSH_Ado_MySQL
 ###  </Usage>
 ### </Script>
 # ---------------------------------------------------------------------------
 
 
-import-module adonetlib -args MySql.Data.MySqlClient -Prefix MySQL -force
+import-module POSH_Ado -args MySql.Data.MySqlClient -Prefix MySQL -force
 
 # .NET (and PowerShell) do not like zero datetime values by default.  This option helps with that.
 # http://dev.mysql.com/doc/refman/5.5/en/connector-net-connection-options.html
